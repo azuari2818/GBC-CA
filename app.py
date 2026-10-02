@@ -5,13 +5,13 @@ Jalankan:  streamlit run app.py
 Struktur proyek:
   app.py                  -> Python (Streamlit): UI, regresi, pemanggil halaman 3D
   requirements.txt        -> daftar pustaka Python
-  assets/style.css        -> CSS (tampilan halaman 3D)
-  assets/common.js        -> JavaScript bersama (three.js: scene, orbit, raycast)
-  assets/instrument.html  -> HTML halaman model 3D AAS
-  assets/instrument.js    -> JavaScript model 3D AAS (klik komponen)
-  assets/interference.html-> HTML halaman animasi gangguan Ca
-  assets/interference.js  -> JavaScript animasi Sr2+, La3+, EDTA
-  assets/komponen.json    -> teks penjelasan tiap komponen (mudah diedit)
+  style.css        -> CSS (tampilan halaman 3D)
+  common.js        -> JavaScript bersama (three.js: scene, orbit, raycast)
+  instrument.html  -> HTML halaman model 3D AAS
+  instrument.js    -> JavaScript model 3D AAS (klik komponen)
+  interference.html-> HTML halaman animasi gangguan Ca
+  interference.js  -> JavaScript animasi Sr2+, La3+, EDTA
+  komponen.json    -> teks penjelasan tiap komponen (mudah diedit)
 Model 3D memakai three.js dari CDN -> perlu koneksi internet di browser.
 """
 import json
