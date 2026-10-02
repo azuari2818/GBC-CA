@@ -1,8 +1,14 @@
 import json
-import numpy as np
-import pandas as pd
-import plotly.graph_objects as go
+
 import streamlit as st
+
+try:
+    import numpy as np
+    import pandas as pd
+    import plotly.graph_objects as go
+except ImportError as e:
+    st.error(f"Library belum terpasang: {e.name}. Jalankan: pip install numpy pandas plotly")
+    st.stop()
 
 """
 Website Proyek: Spektrofotometer Serapan Atom (AAS) GBC Avanta
