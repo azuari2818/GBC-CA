@@ -1,7 +1,8 @@
+import json
+import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
-import random
-from konversi_kimia import halaman_kimia
-from konversi_fisika import halaman_fisika
 
 """
 Website Proyek: Spektrofotometer Serapan Atom (AAS) GBC Avanta
