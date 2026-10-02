@@ -1,31 +1,3 @@
-"""
-=====================================================================
- WEBSITE PROYEK: SPEKTROFOTOMETER SERAPAN ATOM (AAS) GBC AVANTA
- Satu file lengkap: library -> data -> HTML/CSS/JS -> aplikasi utama
-=====================================================================
-CARA PAKAI
-  1. Simpan seluruh isi file ini sebagai  app.py
-  2. Pasang library (satu kali):
-         pip install streamlit numpy pandas plotly
-     atau buat requirements.txt berisi (untuk Streamlit Community Cloud):
-         streamlit
-         numpy
-         pandas
-         plotly
-  3. Jalankan:   streamlit run app.py
-Catatan: model 3D memakai three.js dari CDN, sehingga browser perlu internet.
- 
-ISI FILE
-  [1] Library & konfigurasi halaman
-  [2] Data penjelasan komponen AAS (KOMPONEN)  -> edit sesuai manual/SOP
-  [3] CSS bersama
-  [4] JavaScript bersama (three.js: scene, orbit, klik, silinder)
-  [5] Halaman 3D model AAS   (HTML + JavaScript)
-  [6] Halaman 3D gangguan Ca (HTML + JavaScript)
-  [7] Fungsi penggabung HTML
-  [8] Aplikasi Streamlit (3 tab)
-"""
- 
 # ----------------------------------------------------------------------------
 # [1] LIBRARY & KONFIGURASI HALAMAN
 # ----------------------------------------------------------------------------
