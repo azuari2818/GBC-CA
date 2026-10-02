@@ -1,0 +1,86 @@
+[
+  {
+    "id": "hcl",
+    "nama": "Lampu Katoda Berongga (HCL)",
+    "fungsi": "Sumber radiasi garis. Katoda berbentuk rongga terbuat dari (atau dilapisi) logam analit, di dalam tabung gas mulia (Ne/Ar) bertekanan rendah. Ion gas menembak katoda (sputtering), atom logam tereksitasi lalu memancarkan garis resonansi yang tajam, sama dengan garis serapan atom analit (Ca: 422,7 nm).",
+    "catatan": "Hangatkan lampu sekitar 10–15 menit agar sinyal stabil; jangan melebihi arus maksimum yang tertera pada lampu."
+  },
+  {
+    "id": "turret",
+    "nama": "Turret Lampu",
+    "fungsi": "Dudukan putar yang memuat beberapa HCL. Lampu yang dipilih diputar ke posisi sumbu optik, sehingga ganti unsur tidak perlu memasang ulang lampu.",
+    "catatan": "Jumlah lampu pada turret tergantung varian instrumen, cek manual unit Anda."
+  },
+  {
+    "id": "d2",
+    "nama": "Lampu Deuterium (Koreksi Latar)",
+    "fungsi": "Memancarkan spektrum kontinu UV. Serapan latar (hamburan partikel dan serapan molekul matriks) diukur dengan D₂ lalu dikurangkan dari sinyal total HCL, sehingga yang tersisa adalah serapan atom saja.",
+    "catatan": "D₂ efektif di daerah UV (sekitar 190–350 nm). Garis Ca 422,7 nm berada di luar rentang efektif tersebut."
+  },
+  {
+    "id": "nebu",
+    "nama": "Nebulizer",
+    "fungsi": "Menghisap larutan sampel lewat kapiler (efek Venturi oleh aliran oksidan yang cepat) dan memecahnya menjadi aerosol halus. Laju hisap tipikal sekitar 4–6 mL/menit.",
+    "catatan": "Kapiler tersumbat membuat sinyal turun dan noise naik; bilas dengan air atau asam encer."
+  },
+  {
+    "id": "spray",
+    "nama": "Spray Chamber (Ruang Pengabut)",
+    "fungsi": "Mencampur aerosol dengan bahan bakar (asetilen) dan oksidan (udara atau N₂O), serta membuang tetesan besar (lewat impact bead / flow spoiler) ke drain. Hanya sebagian kecil sampel (kira-kira 5–10%) sampai ke nyala.",
+    "catatan": "Liquid trap pada selang drain harus selalu terisi cairan untuk mencegah gas bocor dan flashback."
+  },
+  {
+    "id": "burner",
+    "nama": "Burner Head (Kepala Pembakar)",
+    "fungsi": "Kepala pembakar bercelah panjang agar jalur optik panjang dan nyala laminar: sekitar 10 cm untuk udara–asetilen, sekitar 5 cm untuk N₂O–asetilen. Celah dijajarkan dengan sumbu optik.",
+    "catatan": "Atur tinggi dan rotasi burner agar berkas melewati zona nyala dengan atom bebas terbanyak; bersihkan kerak garam secara rutin."
+  },
+  {
+    "id": "flame",
+    "nama": "Nyala (Zona Atomisasi)",
+    "fungsi": "Tempat atomisasi: pelarut menguap (desolvasi), partikel padat menguap, lalu molekul terdisosiasi menjadi atom bebas keadaan dasar yang menyerap radiasi HCL. Udara–C₂H₂ sekitar 2300 °C; N₂O–C₂H₂ sekitar 2900 °C. Untuk Ca, nyala N₂O–C₂H₂ mengurangi gangguan fosfat tetapi ionisasi Ca naik, sehingga perlu penekan ionisasi (mis. K atau Cs).",
+    "catatan": "Ikuti urutan nyala/padam menurut SOP; aspirasikan air sebelum dan sesudah pengukuran."
+  },
+  {
+    "id": "hood",
+    "nama": "Cerobong Pembuangan (Exhaust)",
+    "fungsi": "Menyedot gas buang (CO₂, NOx, uap logam dan pelarut) ke luar ruangan agar panas dan uap tidak terakumulasi di laboratorium.",
+    "catatan": "Pastikan exhaust sudah menyala sebelum nyala dinyalakan."
+  },
+  {
+    "id": "sample",
+    "nama": "Wadah Sampel & Kapiler",
+    "fungsi": "Wadah larutan standar/sampel. Kapiler (selang kecil) menghubungkan larutan ke nebulizer.",
+    "catatan": "Gunakan matriks asam yang sama pada standar dan sampel, dan jangan biarkan ujung kapiler menyentuh dasar wadah."
+  },
+  {
+    "id": "drain",
+    "nama": "Wadah Drain (Pembuangan)",
+    "fungsi": "Menampung limbah cair dari spray chamber melalui selang drain berbentuk U (liquid seal) yang harus selalu terisi cairan agar gas tidak bocor dan flashback tercegah.",
+    "catatan": "Kosongkan secara rutin dan pastikan selang drain tidak tertekuk."
+  },
+  {
+    "id": "gas",
+    "nama": "Panel Kontrol Gas",
+    "fungsi": "Mengatur aliran bahan bakar (asetilen) dan oksidan (udara / N₂O), dilengkapi interlock keselamatan (mis. tekanan gas, deteksi nyala, level liquid trap).",
+    "catatan": "Tekanan asetilen dari regulator dijaga tidak lebih dari sekitar 15 psi (≈ 100 kPa)."
+  },
+  {
+    "id": "slit",
+    "nama": "Celah Monokromator (Slit Masuk & Keluar)",
+    "fungsi": "Celah masuk membatasi berkas yang memasuki monokromator; celah keluar hanya meneruskan pita sempit panjang gelombang (spectral bandwidth, mis. 0,5 nm) ke detektor, sehingga garis analit terpisah dari garis lain.",
+    "catatan": "Celah sempit: resolusi lebih baik tetapi energi turun dan noise naik."
+  },
+  {
+    "id": "grating",
+    "nama": "Kisi Difraksi (Grating) – Monokromator",
+    "fungsi": "Memantulkan dan mendispersikan cahaya. Dengan memutar kisi, hanya garis resonansi analit yang diarahkan ke celah keluar, sehingga garis analit terpisah dari emisi nyala dan garis lain dari lampu.",
+    "catatan": "Konfigurasi optik (mis. Czerny–Turner) dapat berbeda antarmodel, cek manual. Jangan menyentuh permukaan kisi."
+  },
+  {
+    "id": "pmt",
+    "nama": "Detektor Photomultiplier (PMT)",
+    "fungsi": "Mengubah foton menjadi arus listrik lalu menggandakannya (efek fotolistrik dan emisi sekunder pada dinode). Sinyal diolah menjadi absorbansi: A = log(I₀/I).",
+    "catatan": "Tegangan PMT terlalu tinggi menaikkan noise; jangan membuka rumah detektor saat instrumen bertegangan."
+  }
+]
